@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins/jenkins:latest
+    container_name: jenkins_by_michael
+    restart: always
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
