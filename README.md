@@ -1,3 +1,5 @@
 # Home-assignment-Aurora-Labs-by-Michael
-Home assignment
-docker run -p 8080:8080 -p 50000:50000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:latest
+You can run this command:
+docker-compose up -d
+This will start a new Jenkins container in the background, using the configuration specified in the docker-compose.yml file. 
+You can access the Jenkins web interface by navigating to http://localhost:8080 in your web browser.
